@@ -10,12 +10,5 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.12" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="reactapp\build\**\*" />
-  </ItemGroup>
-  <Target Name="BuildReact" AfterTargets="Build">
-    <Exec WorkingDirectory="$(ProjectDir)reactapp" Command="npm install" />
-    <Exec WorkingDirectory="$(ProjectDir)reactapp" Command="npm run build" />
-  </Target>
 
 </Project>

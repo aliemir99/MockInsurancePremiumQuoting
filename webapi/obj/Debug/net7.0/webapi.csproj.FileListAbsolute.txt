@@ -33,5 +33,4 @@ C:\Users\aliem\source\repos\MockInsurancePremiumQuoting\webapi\obj\Debug\net7.0\
 C:\Users\aliem\source\repos\MockInsurancePremiumQuoting\webapi\obj\Debug\net7.0\rjsmcshtml.dswa.cache.json
 C:\Users\aliem\source\repos\MockInsurancePremiumQuoting\webapi\obj\Debug\net7.0\staticwebassets.build.json.cache
 C:\Users\aliem\source\repos\MockInsurancePremiumQuoting\webapi\obj\Debug\net7.0\staticwebassets.build.endpoints.json
-C:\Users\aliem\source\repos\MockInsurancePremiumQuoting\webapi\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
 C:\Users\aliem\source\repos\MockInsurancePremiumQuoting\webapi\obj\Debug\net7.0\webapi.csproj.Up2Date

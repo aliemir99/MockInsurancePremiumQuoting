@@ -1,24 +1,19 @@
 ﻿import React from "react";
 import QuoteForm from "./Components/QuoteForm";
-import { motion } from "framer-motion";
 
 function App() {
     return (
-        <div
-            style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                width: "100%",
-                minHeight: "100vh",
-                fontFamily: "Segoe UI, Roboto, Helvetica, Arial, sans-serif",
-            }}
-        >
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
+        <div style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            minHeight: "100vh",
+            fontFamily: "Segoe UI, Roboto, Helvetica, Arial, sans-serif",
+        }}>
+            <div
+
                 style={{
                     backgroundColor: "white",
                     padding: "2rem 3rem",
@@ -29,18 +24,14 @@ function App() {
                     width: "90%",
                 }}
             >
-                <h1 style={{
-                    marginBottom: "1.5rem",
-                    color: "#003366",
-                    fontWeight: 700,
-                }}>
+                <h1 style={{ marginBottom: "1.5rem", color: "#003366", fontWeight: 700 }}>
                     Mock Insurance Quote Generator
                 </h1>
                 <p style={{ marginBottom: "2rem", color: "#444", fontSize: "0.95rem" }}>
                     Enter your details below to generate a mock insurance premium.
                 </p>
                 <QuoteForm />
-            </motion.div>
+            </div>
         </div>
     );
 }
