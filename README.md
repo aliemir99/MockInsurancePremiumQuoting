@@ -16,5 +16,7 @@ git clone https://github.com/aliemir99/MockInsurancePremiumQuoting.git
 # Navigate into the folder
 cd reactapp
 
-# Install dependencies (if any)
-npm install
+# Install dependencies
+npm install --legacy-peer-deps
+
+then you can run the application from visual studio
